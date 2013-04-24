@@ -1,0 +1,60 @@
+﻿body, ul, li, span, div {
+    padding: 0;
+    margin: 0;
+}
+
+    body nav ul {
+        list-style-type: none;
+        margin: 20px;
+    }
+
+        body nav ul li {
+            float: left;
+            display: inline-block;
+        }
+
+span {
+    height: 50px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    display: inline-block;
+    display: -moz-inline-stack; /*Firefox 2*/
+    zoom: 1; /*IE hack to trigger hasLayout*/
+    *display: inline; /*IE hack to achieve inline-block behavior*/
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 16px;
+    color: #a7162e;
+    font-weight: 600;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+#left-end {
+    background-image: url(../images/left-end.png);
+    float: left;
+    width: 7px;
+}
+
+.middle {
+    background-image: url(../images/middle-fill.png);
+    background-repeat: repeat;
+    float: left;
+}
+
+.divider {
+    background-image: url(../images/middle-divider.png);
+    width: 3px;
+    float: left;
+}
+
+#right-end {
+    background-image: url(../images/right-end.png);
+    float: left;
+    width: 7px;
+}

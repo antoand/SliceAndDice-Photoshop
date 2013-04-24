@@ -1,0 +1,62 @@
+﻿body, ul, li, button, a, span {
+    margin: 0;
+    padding: 0;
+}
+
+    body ul {
+        list-style-type: none;
+    }
+
+        body ul li button.button {
+            border: none;
+            background-color: transparent;
+        }
+
+            body ul li button.button:hover {
+                cursor: pointer;
+            }
+
+        body ul li#li-hyperlink {
+            width: 300px;
+        }
+
+         body ul li#li-hyperlink span a {
+            text-decoration: none;
+            color: black;
+        }
+
+        body ul li button.button, body ul li#li-hyperlink {
+            font-family: Calibri;
+            font-size: 22px;
+            margin: 5px 15px;
+        }
+
+span {
+    height: 47px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    display: inline-block;
+    display: -moz-inline-stack; /*Firefox 2*/
+    zoom: 1; /*IE hack to trigger hasLayout*/
+    *display: inline; /*IE hack to achieve inline-block behavior*/
+}
+
+.label {
+    background-image: url(../images/button-middle.png);
+    background-repeat: repeat;
+    padding: 0 5px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.left {
+    background-image: url(../images/button-left.png);
+    width: 24px;
+}
+
+.right {
+    background-image: url(../images/button-right.png);
+    width: 24px;
+}
+

@@ -1,0 +1,128 @@
+﻿body, div, img {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: beige;
+    margin: 15px;
+}
+
+section {
+    width: 650px;
+    float: left;
+    clear: both;
+}
+
+aside {
+    width: 350px;
+    float: left;
+}
+
+#div-main-image {
+    margin: 15px;
+}
+
+#main-image {
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    float: left;
+}
+
+.side-shadow {
+    display: inline-block;
+    float: left;
+    clear: right;
+}
+
+.side-up {
+    display: block;
+    height: 7px;
+    width: 7px;
+    margin-top: 5px;
+    background-image: url(../images/side-up-corner.png);
+}
+
+.side-middle {
+    display: block;
+    height: 388px;
+    width: 7px;
+    background-image: url(../images/side-middle.png);
+    background-repeat: repeat;
+}
+
+.bottom-shadow {
+    clear: left;
+}
+
+.bottom-left {
+    display: inline-block;
+    float: left;
+    height: 7px;
+    width: 7px;
+    margin-left: 5px;
+    background-image: url(../images/bottom-left-corner.png);
+}
+
+.bottom-middle {
+    display: inline-block;
+    float: left;
+    height: 7px;
+    width: 588px;
+    background-image: url(../images/bottom-middle.png);
+    background-repeat: repeat;
+}
+
+.bottom-right {
+    display: inline-block;
+    float: left;
+    height: 7px;
+    width: 7px;
+    background-image: url(../images/bottom-right-corner.png);
+}
+
+body div aside div#side-image1 img#img1 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+
+body div aside div#side-image1 div.side-shadow span.side-middle {
+    height: 188px;
+}
+
+body div aside div#side-image1 div.bottom-shadow span.bottom-middle {
+    width: 288px;
+}
+
+body div aside div#side-image2 img#img2 {
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    float: left;
+}
+
+body div aside div#side-image2 div.side-shadow span.side-middle {
+    height: 138px;
+}
+
+body div aside div#side-image2 div.bottom-shadow span.bottom-middle {
+    width: 238px;
+}
+
+body div aside div#side-image3 img#img3 {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    float: left;
+}
+
+body div aside div#side-image3 div.side-shadow span.side-middle {
+    height: 88px;
+}
+
+body div aside div#side-image3 div.bottom-shadow span.bottom-middle {
+    width: 138px;
+}
